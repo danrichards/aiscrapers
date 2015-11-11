@@ -1,0 +1,32 @@
+{
+  "name": "dan/aiscrapers",
+  "description": "All-purpose scrapers built using AiCrawler and AiResponders libraries.",
+  "license": "MIT",
+  "keywords": ["scraper","crawler","ai"],
+  "authors": [
+    {
+      "name": "Dan Richards",
+      "email": "danrichardsri@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "dan/aicrawler": "dev-master",
+    "dan/airesponses": "dev-master",
+    "dan/core": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dan\\AiScrapers\\": "src/Dan/AiScrapers/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AiScrapersTests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
