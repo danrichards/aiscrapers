@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Dan\\AiScrapers\\": "src/Dan/AiScrapers/"
+      "Dan\\AiScrapers\\": "src/"
     }
   },
   "autoload-dev": {
